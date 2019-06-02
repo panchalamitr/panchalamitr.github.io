@@ -1,6 +1,24 @@
 /* lg */ 
+
+.cover{
+	position:absolute; 
+	z-index:0;
+	top:0;
+	right:0; 
+	margin-right:170px; 
+	margin-top:90px;
+}	
+
 @media (min-width: 1400px) {
-	
+
+	.cover{
+		position:absolute; 
+		z-index:0;
+		top:0;
+		right:0; 
+		margin-right:160px; 
+		margin-top:90px;
+	}	
 }
 
 /* md */
@@ -44,6 +62,17 @@
 	    height: 64px;
 	    padding: 2px 15px;
 	}	
+
+	.cover{
+		position:absolute; 
+		z-index:0;
+		top:0;
+		right:0; 
+		width: 350px;
+		padding: 30px;
+		margin-right:100px; 
+		margin-top:90px;
+	}	
 }
 
 @media (max-width: 991px) {
@@ -79,6 +108,17 @@
 	#navigation .navbar:before {
 		width: 200%;
 	}
+
+	.cover{
+		position:absolute; 
+		z-index:0;
+		top:0;
+		right:0; 
+		width: 350px;
+		padding: 30px;
+		margin-right:100px; 
+		margin-top:90px;
+	}	
 }
 
 /* sm */
@@ -220,6 +260,17 @@
 	.home-one .navbar-nav {
 		margin-top: 10px;
 	}
+
+	.cover{
+		position:absolute; 
+		z-index:0;
+		top:0;
+		right:0; 
+		width: 350px;
+		padding: 30px;
+		margin-right:100px; 
+		margin-top:90px;
+	}	
 }
 
 
@@ -533,6 +584,17 @@
 	.home-banner-one .banner-content {
 		padding: 15px;
 	}
+
+	.cover{
+		position:absolute; 
+		z-index:0;
+		top:0;
+		right:0; 
+		width: 350px;
+		padding: 30px;
+		margin-right:60px; 
+		margin-top:60px;
+	}	
 }
 
 /* XS Portrait */
@@ -639,5 +701,40 @@
 	#navigation.menu-one .navbar-nav > li {
 		height: 12%;
 	}
+
+	.cover{
+		position:absolute; 
+		z-index:0;
+		top:0;
+		right:0; 
+		width: 350px;
+		padding: 40px;
+		margin-right:0px; 
+		margin-top:50px;
+	}	
 }
 
+
+/* XS Portrait */
+@media (max-width: 428px) {
+
+	.banner-info h2 {
+		font-size: 30px;
+		line-height: 16px;
+	}
+	.banner-info h3 {
+		font-size: 9px;
+		letter-spacing: 8px;
+	}
+
+	.cover{
+		position:absolute; 
+		z-index:0;
+		top:0;
+		right:0; 
+		width: 350px;
+		padding: 50px;
+		margin-right:-40px; 
+		margin-top:50px;
+	}	
+}
